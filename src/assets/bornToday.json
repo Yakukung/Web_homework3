@@ -1,0 +1,39 @@
+[
+    {
+        "idx": "1",
+        "movieName":"Deadpool",
+        "casterBName":"Ryan Reynolds",
+        "Imgurl":"https://m.media-amazon.com/images/M/MV5BODFmN2VmZmEtYTRjZi00ZjY1LTgxYjQtODMyNDI3ZDk4ZTJiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "idx": "2",
+        "movieName":"Inception",
+        "casterBName":"Leonardo DiCaprio",
+        "Imgurl": "https://m.media-amazon.com/images/M/MV5BMjI0MTg3MzI0M15BMl5BanBnXkFtZTcwMzQyODU2Mw@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "idx": "3",
+        "movieName":"Joker",
+        "casterBName":"Joaquin Phoenix",
+        "Imgurl": "https://m.media-amazon.com/images/M/MV5BMTY5OTA3ODk0MF5BMl5BanBnXkFtZTYwOTAxMzQz._V1_.jpg" 
+    },
+    
+    {
+        "idx": "4",
+        "movieName":"John Wick",
+        "casterBName":"Keanu Reeves",
+        "Imgurl": "https://m.media-amazon.com/images/M/MV5BNGJmMWEzOGQtMWZkNS00MGNiLTk5NGEtYzg1YzAyZTgzZTZmXkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_.jpg"
+    },
+    {
+        "idx": "5",
+        "movieName":"The Matrix",
+        "casterBName":"Carrie-Anne Moss",
+        "Imgurl": "https://m.media-amazon.com/images/M/MV5BMTYxMjgwNzEwOF5BMl5BanBnXkFtZTcwNTQ0NzI5Ng@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "idx": "6",
+        "movieName":"The Lord of the Rings",
+        "casterBName":"Elijah Wood",
+        "Imgurl": "https://m.media-amazon.com/images/M/MV5BMTM0NDIxMzQ5OF5BMl5BanBnXkFtZTcwNzAyNTA4Nw@@._V1_FMjpg_UX1000_.jpg"
+    }
+]

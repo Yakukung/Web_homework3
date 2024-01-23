@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta movieName="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+    <style>
+        .toolbarColor {
+            background-color: #595959;
+            font-weight: bold;
+        }
+
+        .icon {
+            width: 70px;
+            margin-right: 15px;
+        }
+
+        a {
+            font-size: 35px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        body {
+            height: auto;
+            background-color: #212121;
+        }
+
+        .setScreen {
+            margin-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+        }
+
+        .Background {
+            background-color: #171717;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15px;
+            padding-bottom: 5rem;
+            padding-top: 1rem;
+            border-radius: 1%;
+        }
+
+        .backBeforePage {
+            display: flex;
+            color: #f6c800;
+            align-items: center;
+
+        }
+
+        .NameMovie {
+            color: white;
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        .TimeMovie {
+            font-weight: 500;
+            margin-top: 7px;
+            color: rgb(194, 194, 194);
+        }
+
+        .widthNameMovie {
+            width: 65%;
+        }
+
+        .setRating {
+            color: rgb(194, 194, 194);
+            text-align: center;
+            width: 12%;
+            font-weight: 600;
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+
+        .setFontColor {
+            color: white;
+        }
+
+        .rate {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .countVoting {
+            text-align: start;
+            margin-top: 4px;
+            color: white;
+            font-size: 12px;
+        }
+
+        .img {
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 330px;
+            height: 470px;
+        }
+
+        .setTab {
+            display: flex;
+            justify-content: center;
+        }
+
+        .setImgAndVideo {
+            display: flex;
+            margin-top: 15px;
+            justify-content: space-between;
+
+        }
+
+        .buttonCircle {
+            margin-top: 7px;
+            margin-bottom: 7px;
+            display: flex;
+        }
+
+        .details {
+            color: white;
+            width: 60%;
+        }
+
+        .intoButton {
+            color: rgb(0, 131, 219);
+        }
+
+        .type {
+            color: white;
+
+        }
+
+        .iconBack {
+            font-size: 50px;
+            font-weight: bold;
+            color: #f6c800;
+        }
+
+        .setBackToPageScreen {
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        .rateFont {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .buttonType {
+            border: 0.1px solid white;
+            color: white;
+            width: 5%;
+            height: 30px;
+            border-radius: 30px;
+            margin-right: 10px;
+            margin-bottom: 7px;
+            margin-top: 7px;
+        }
+
+        .hr {
+            border-top: 0.1px solid white;
+            margin-top: 10px;
+        }
+
+        .rateCenter {
+
+            display: flex;
+            align-items: center;
+        }
+
+        button:hover {
+            background-color: rgb(51, 51, 51);
+        }
+
+        .toolbarButton {
+            width: 80%;
+            height: 50px;
+        }
+
+        .OneDiv {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 18%;
+            margin-right: 10px;
+        }
+
+        .Doublebox {
+            background-color: rgb(73, 73, 73);
+            width: 100%;
+            height: 49%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .iframe {
+            margin-right: 10px;
+        }
+
+        .material-symbols-outlined {
+            font-weight: 600;
+            font-size: 45px;
+        }
+
+        .spanIntoBox {
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+        .addToWatchlist{
+            display: flex; justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <mat-toolbar class="toolbarColor">
+        <img class="icon"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/640px-IMDB_Logo_2016.svg.png"
+            alt="">
+        <span style="color: #f6c800;">Internet Movie Database</span>
+    </mat-toolbar>
+
+    <div class="setBackToPageScreen">
+        <div style="display: flex;">
+
+            <a class="backBeforePage" routerLink=""><span class="material-symbols-outlined iconBack">
+                    keyboard_arrow_left</span>
+                <div><span>Back</span></div>
+            </a>
+        </div>
+    </div>
+
+    <div class="Background">
+
+        <div class="setTab">
+
+
+            <div class="widthNameMovie">
+                <div class="NameMovie">
+                    <span>{{ Deadpool[0].movieName }}</span>
+                </div>
+                <div class="TimeMovie ">
+                    <span>2003 u 13 + 3h 21m</span>
+                </div>
+            </div>
+            <div class="setRating ">
+                <span>IMDb RATING</span>
+                <div>
+                    <button class="toolbarButton" mat-button>
+                        <div class="rateCenter">
+                            <span class="setFontColor rate">{{ Deadpool[0].rate }}</span><span
+                                class="setRating">/10</span>
+                        </div>
+                        <div class="countVoting">
+                            <span>1.1M</span>
+                        </div>
+                    </button>
+                </div>
+
+            </div>
+            <div class="setRating ">
+                <span>YOUR RATING</span>
+                <div>
+                    <button class="toolbarButton" mat-button><span class="intoButton rateFont">Rate</span></button>
+                </div>
+            </div>
+            <div class="setRating">
+                <span>POPULARITY</span>
+                <div>
+                    <button class="toolbarButton" mat-button><span class="type rateFont">380</span></button>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="setImgAndVideo">
+
+            <img class="img" src="{{ Deadpool[0].url }}" alt="">
+            <iframe class="iframe" width="775" height="470" src="https://www.youtube.com/embed/ONHBaC-pfsk"
+                title="Deadpool | Trailer [HD] | 20th Century FOX" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <div class="OneDiv">
+                <div class="Doublebox">
+                    <div>
+                        <span class="material-symbols-outlined">video_library</span>
+                    </div>
+                    <div class="spanIntoBox">
+                        <span>43 VIDEOS</span>
+                    </div>
+
+                </div>
+                <div class="Doublebox">
+                    <div>
+                        <span class="material-symbols-outlined">photo_library</span>
+                    </div>
+                    <div class="spanIntoBox">
+                        <span>99+ PHOTOS</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="buttonCircle">
+            <button class="buttonType" mat-button><span class="type">Action</span></button>
+            <button class="buttonType" mat-button><span class="type">Comdy</span></button>
+
+        </div>
+        <div class="addToWatchlist">
+            <div class="details">
+                <span>{{ Deadpool[0].detail }}</span>
+                <hr class="hr">
+            </div>
+            <div style=" color: #f6c800; background-color: aqua; width: 32%; margin-right: 10px;">
+                
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>

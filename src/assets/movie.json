@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "movieName": "Deadpool",
+    "rate": "8.0",
+    "detail": "A wisecracking mercenary gets experimented on and becomes immortal yet hideously scarred, and sets out to track down the man who ruined his looks.",
+    "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Deadpool_%282016_poster%29.png",
+    "Background":"https://cdn.mos.cms.futurecdn.net/EKx4wUezXTrh3UZDNPiT7f.jpg"
+  },
+  {
+    "id": "2",
+    "movieName": "Inception",
+    "rate": "8.8",
+    "detail": "",
+    "url": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+    "Background":""
+  },
+  {
+    "id": "3",
+    "movieName": "Joker",
+    "rate": "8.4",
+    "detail": "",
+    "url": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+    "Background":""
+  },
+  {
+    "id": "4",
+    "movieName": "John Wick",
+    "rate": "7.4",
+    "detail": "",
+    "url": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg",
+    "Background":""
+  }, 
+  {
+    "id": "5",
+    "movieName": "The Matrix",
+    "rate": "8.7",
+    "detail": "",
+    "url": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+    "Background":""
+  },
+  {
+    "id": "6",
+    "movieName": "The Lord of the Rings",
+    "rate": "8.8",
+    "detail": "",
+    "url": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+    "Background":""
+  }
+  
+]
